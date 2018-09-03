@@ -1,0 +1,51 @@
+{
+	"id": "0165840981a1000000000001001003b0",
+	"eventDate": "2018-08-29T04:55:40.158Z",
+	"stateChanged": true,
+	"description": "Device record updated, changed 'state' from 'bootstrapped' to 'registered' and changed 'state_timestamp' from '2018-08-29T04:55:25.194Z' to '2018-08-29T04:55:40Z'",
+	"changes": {
+		"state": {
+			"previous": "bootstrapped",
+			"current": "registered"
+		},
+		"state_timestamp": {
+			"previous": "2018-08-29T04:55:25.194Z",
+			"current": "2018-08-29T04:55:40Z"
+		}
+	},
+	"typeDescription": "Device record updated",
+	"type": "update.device.device-updated",
+	"data": {
+		"name": "0164ea12f06e00000000000100100225",
+		"ca_id": "",
+		"state": "registered",
+		"groups": "NOT LOGGED",
+		"object": "device",
+		"manifest": "",
+		"mechanism": "connector",
+		"vendor_id": "dev_manufacturer",
+		"account_id": "0162294bd9570a580a01242800000000",
+		"created_at": "2018-07-30T07:24:27.097Z",
+		"deployment": "",
+		"device_key": "",
+		"auto_update": false,
+		"description": "",
+		"device_class": "dev_model_number",
+		"host_gateway": "",
+		"endpoint_name": "Chint-intelligent-gateway-WiFi-180730-01-us",
+		"endpoint_type": "default",
+		"mechanism_url": "",
+		"serial_number": "Chint-intelligent-gateway-WiFi-180730-01-us",
+		"deployed_state": "development",
+		"package_version": "1970-01-01T00:00:00Z",
+		"state_timestamp": "2018-08-29T04:55:40Z",
+		"package_checksum": "0000000000000000000000000000000000000000000000000000000000000000",
+		"custom_attributes": {},
+		"device_execution_mode": 5,
+		"bootstrapped_timestamp": "2018-08-29T04:55:25.194Z",
+		"enrolment_list_timestamp": null,
+		"bootstrap_expiration_date": null,
+		"connector_expiration_date": null
+	},
+	"deviceId": "0164ea12f06e00000000000100100225"
+}

@@ -1,0 +1,10 @@
+{
+	"id": "0165848cbed3000000000001001003e7",
+	"eventDate": "2018-08-29T07:19:00.982Z",
+	"stateChanged": false,
+	"description": "Device firmware package version notification received",
+	"changes": {},
+	"typeDescription": "Device firmware package version notification received",
+	"type": "update.device.connector-device.firmware-update.package-version",
+	"deviceId": "0164ea12f06e00000000000100100225"
+}

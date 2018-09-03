@@ -1,0 +1,4279 @@
+14:51:45.76 <info> devices.length 1 (in business.js:35)
+14:51:45.77 <info> deviceId: 0164ea12f06e00000000000100100225 exists. (in business.js:39)
+14:51:48.01 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:51:48.01 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 14,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:51:52.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:51:52.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:51:52.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 15,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:52:02.19 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:02.19 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:02.19 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 16,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:52:12.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:12.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:12.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 17,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:52:23.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:23.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:23.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 18,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:52:33.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:33.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:33.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 19,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:52:42.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0014',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:42.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0014',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:42.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 20,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:52:53.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:53.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:52:53.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 21,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:53:01.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0016',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:01.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0016',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:01.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 22,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:53:10.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:10.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:10.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 23,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:53:21.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0018',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:21.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0018',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:21.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 24,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:53:30.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:30.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:30.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 25,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:53:40.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:40.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:40.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 26,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:53:50.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:50.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:53:50.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 27,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:00.47 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:02.01 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:02.01 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 28,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:02.01 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:02.01 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:10.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:10.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:10.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 29,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:20.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:20.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:20.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 30,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:30.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:30.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:30.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 31,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:39.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:39.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:39.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 32,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:48.100 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000!',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:49.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000!',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:49.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 33,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:54:58.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000"',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:59.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000"',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:54:59.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 34,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:55:07.79 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000#',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:11.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000#',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:11.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 35,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:55:19.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:19.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:19.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 36,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:55:22.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:22.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:27.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000%',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:28.99 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000%',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:28.99 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 37,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:55:38.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000&',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:38.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000&',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:38.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 38,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:55:48.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\'',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:48.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\'',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:48.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 39,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:55:57.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:57.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:55:57.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 40,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:56:06.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000)',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:08.46 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000)',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:08.46 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 41,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:56:16.42 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000*',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:17.99 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000*',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:17.99 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 42,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:56:26.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000+',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:26.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000+',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:29.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 43,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:56:37.11 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000,',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:37.11 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000,',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:37.11 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 44,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:56:46.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000-',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:46.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000-',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:46.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 45,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:56:55.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000.',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:55.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000.',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:56:58.61 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 46,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:57:07.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000/',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:07.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000/',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:07.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 47,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:57:16.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:16.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:16.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 48,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:57:27.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:27.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:27.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 49,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:57:36.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00002',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:36.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00002',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:36.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 50,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:57:45.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:45.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:57:45.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 51,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:00.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:00.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:00.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 52,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:07.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:07.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:07.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 53,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:15.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:15.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:15.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 54,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:17.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:17.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:25.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00007',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:25.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00007',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:25.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 55,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:34.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00008',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:34.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00008',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:34.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 56,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:43.39 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00009',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:50.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00009',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:50.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00009',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:50.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00009',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:50.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 57,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:58:53.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000:',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:54.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000:',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:58:54.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 58,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:59:03.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000;',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:03.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000;',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:03.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 59,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:59:13.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000<',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:13.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000<',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:13.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 60,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:59:23.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000=',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:23.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000=',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:23.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 61,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:59:32.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000>',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:32.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000>',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:34.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 62,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:59:42.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000?',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:42.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000?',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:42.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 63,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+14:59:51.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000@',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:53.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000@',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+14:59:53.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 64,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:00:06.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000A',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:06.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000A',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:06.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 65,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:00:12.18 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000B',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:12.18 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000B',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:13.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 66,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:00:21.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000C',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:21.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000C',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:23.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 67,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:00:33.70 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000D',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:33.70 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000D',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:33.70 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 68,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:00:40.89 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000E',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:42.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000E',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:42.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 69,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:00:51.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000F',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:51.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000F',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:00:51.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 70,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:01.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000G',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:01.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000G',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:01.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 71,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:12.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000H',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:12.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000H',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:12.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 72,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:23.21 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000I',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:23.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000I',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:23.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 73,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:32.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000J',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:32.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000J',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:32.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 74,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:41.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000K',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:41.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000K',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:41.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 75,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:52.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000L',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:52.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000L',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:52.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 76,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:01:59.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000M',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:01:59.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000M',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:01.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 77,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:02:09.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000N',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:10.89 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000N',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:10.89 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 78,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:02:20.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000O',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:20.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000O',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:20.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 79,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:02:31.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000P',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:31.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000P',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:31.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 80,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:02:39.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000Q',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:39.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000Q',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:39.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 81,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:02:51.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000R',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:51.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000R',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:51.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 82,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:02:58.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000S',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:59.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000S',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:02:59.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 83,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:03:10.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000T',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:10.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000T',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:10.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 84,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:03:18.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000U',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:18.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000U',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:18.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 85,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:03:28.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000V',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:28.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000V',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:28.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 86,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:03:38.61 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000W',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:38.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000W',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:38.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 87,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:03:48.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000X',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:48.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000X',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:48.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 88,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:03:57.44 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000Y',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:57.44 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000Y',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:03:57.44 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 89,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:04:08.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000Z',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:08.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000Z',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:08.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 90,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:04:17.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000[',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:17.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000[',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:17.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 91,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:04:27.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\\',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:27.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\\',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:27.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 92,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:04:38.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000]',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:38.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000]',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:38.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 93,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:04:46.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000^',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:46.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000^',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:47.75 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 94,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:04:56.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000_',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:56.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000_',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:04:56.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 95,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:05:07.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000`',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:07.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000`',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:07.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 96,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:05:15.95 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:15.95 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:17.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 97,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:05:25.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:25.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:25.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 98,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:05:36.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:36.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:36.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 99,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:05:45.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:45.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:45.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 100,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:05:55.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:55.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:05:55.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 101,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:06:05.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:05.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:05.41 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 102,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:06:15.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000g',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:15.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000g',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:15.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 103,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:06:25.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000h',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:25.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000h',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:25.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 104,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:06:33.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000i',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:35.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000i',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:35.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 105,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:06:43.39 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000j',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:44.99 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000j',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:44.99 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 106,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:06:53.14 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000k',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:54.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000k',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:06:54.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 107,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:07:03.18 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000l',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:04.82 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000l',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:04.82 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 108,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:07:12.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000m',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:15.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000m',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:15.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 109,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:07:23.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000n',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:23.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000n',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:23.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 110,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:07:32.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000o',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:32.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000o',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:34.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 111,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:07:43.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000p',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:43.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000p',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:43.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 112,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:07:52.25 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000q',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:52.25 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000q',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:07:53.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 113,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:08:02.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000r',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:02.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000r',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:02.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 114,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:08:11.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000s',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:11.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000s',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:13.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 115,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:08:21.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000t',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:23.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000t',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:23.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 116,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:08:31.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000u',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:32.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000u',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:32.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 117,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:08:35.25 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000u',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:35.25 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000u',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:41.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000v',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:41.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000v',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:41.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 118,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:08:52.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000w',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:52.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000w',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:08:52.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 119,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:02.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000x',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:02.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000x',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:02.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 120,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:11.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000y',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:11.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000y',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:11.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 121,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:21.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000z',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:21.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000z',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:21.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 122,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:31.100 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000{',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:32.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000{',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:32.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 123,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:40.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000|',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:40.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000|',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:41.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 124,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:52.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000}',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:52.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000}',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:52.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 125,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:09:59.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000~',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:09:59.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000~',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:01.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 126,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:10:09.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:10.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 127,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:10:20.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:20.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:20.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 128,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:10:29.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:29.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:31.12 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 129,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:10:38.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:40.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:40.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 130,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:10:48.38 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:49.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:49.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 131,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:10:59.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:59.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:10:59.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 132,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:11:09.23 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:09.23 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:09.23 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 133,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:11:18.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:18.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:18.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 134,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:11:27.79 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:27.79 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:30.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 135,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:11:37.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:37.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:37.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 136,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:11:47.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:47.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:50.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 137,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:11:57.89 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:57.89 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:11:57.89 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 138,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:12:06.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:06.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:09.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 139,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:12:17.05 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:17.05 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:17.05 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 140,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:12:28.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:28.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:28.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 141,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:12:36.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:36.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:38.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 142,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:12:46.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:46.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:46.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 143,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:12:56.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:56.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:12:56.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 144,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:13:06.39 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:06.39 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:06.39 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 145,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:13:16.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:16.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:16.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 146,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:13:25.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:25.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:25.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 147,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:13:37.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:37.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:37.87 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 148,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:13:45.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:45.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:45.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 149,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:13:54.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:56.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:13:56.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 150,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:14:04.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:07.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:07.81 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 151,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:14:13.91 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:15.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:15.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 152,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:14:24.57 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:24.57 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:24.57 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 153,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:14:36.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:36.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:36.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 154,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:14:46.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:46.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:46.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 155,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:14:53.46 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:53.46 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:14:55.11 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 156,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:15:03.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:04.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:04.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 157,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:15:14.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:14.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:14.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 158,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:15:22.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:23.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:23.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 159,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:15:34.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:34.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:34.61 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 160,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:15:34.61 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:34.61 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:53.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¡',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:53.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¡',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:53.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 161,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:15:53.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¢',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:53.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¢',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:15:53.85 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 162,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:16:01.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000£',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:03.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000£',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:03.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 163,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:16:11.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¤',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:13.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¤',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:13.26 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 164,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:16:21.76 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¥',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:21.76 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¥',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:24.43 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 165,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:16:33.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¦',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:33.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¦',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:33.30 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 166,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:16:41.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000§',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:41.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000§',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:41.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 167,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:16:51.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¨',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:51.93 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¨',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:16:51.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 168,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:01.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000©',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:01.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000©',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:01.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 169,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:10.84 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ª',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:10.84 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ª',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:10.84 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 170,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:21.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000«',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:21.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000«',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:21.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 171,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:32.79 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¬',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:32.79 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¬',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:32.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 172,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:40.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000­',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:40.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000­',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:41.95 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 173,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:50.100 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000®',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:50.100 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000®',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:52.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 174,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:17:52.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000®',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:52.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000®',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:17:59.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¯',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:00.76 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000¯',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:00.76 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 175,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:18:09.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000°',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:09.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000°',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:10.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 176,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:18:20.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000±',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:20.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000±',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:20.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 177,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:18:31.20 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000²',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:31.20 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000²',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:31.20 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 178,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:18:39.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000³',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:39.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000³',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:18:39.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 179,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:21:08.75 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:23.83 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:31.33 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 3,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:21:31.33 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:33.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:36.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:36.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 4,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:21:45.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:45.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 5,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:21:53.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:54.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:21:54.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 6,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:22:03.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:03.45 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:05.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 7,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:22:13.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:15.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:15.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 8,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:22:23.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:23.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:23.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 9,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:22:34.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:34.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:34.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 10,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:22:43.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:43.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:43.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 11,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:22:52.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:52.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:22:54.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 12,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:23:10.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:10.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 13,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:23:11.91 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:13.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:13.50 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 14,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:23:23.73 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:23.73 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:23.73 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 15,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:23:32.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:32.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:32.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 16,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:23:42.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:42.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:42.62 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 17,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:23:51.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:51.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:23:53.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 18,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:01.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:01.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:01.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 19,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:11.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0014',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:11.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0014',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:11.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 20,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:22.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:22.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:22.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 21,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:31.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0016',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:31.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0016',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:31.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 22,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:40.03 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:41.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:41.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 23,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:49.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0018',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:51.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0018',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:51.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 24,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:24:59.82 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:24:59.82 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:01.47 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 25,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:25:11.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:11.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:11.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 26,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:25:20.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:20.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:20.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 27,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:25:29.73 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:29.73 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:29.73 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 28,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:25:39.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:39.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:39.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 29,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:25:49.29 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:49.29 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:50.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 30,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:25:50.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:25:50.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:00.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:00.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:00.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 31,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:26:13.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:13.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:13.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 32,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:26:18.10 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000!',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:18.10 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000!',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:19.74 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 33,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:26:28.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000"',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:28.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000"',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:30.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 34,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:26:37.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000#',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:37.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000#',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:39.29 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 35,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:26:50.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:50.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:26:50.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 36,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:01.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000%',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:01.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000%',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:01.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 37,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:09.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000&',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:09.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000&',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:09.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 38,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:17.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\'',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:17.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000\'',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:18.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 39,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:28.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:28.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:29.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 40,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:31.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:31.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:39.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000)',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:39.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000)',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:39.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 41,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:50.14 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000*',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:50.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000*',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:50.15 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 42,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:27:55.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000+',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:57.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000+',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:27:57.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 43,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:28:05.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000,',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:05.98 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000,',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:07.56 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 44,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:28:16.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000-',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:16.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000-',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:22.64 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 45,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:28:25.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000.',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:25.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000.',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:25.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 46,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:28:37.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000/',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:37.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000/',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:37.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 47,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:28:46.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:46.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:46.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 48,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:28:58.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:58.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:28:58.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 49,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:29:05.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00002',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:05.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00002',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:05.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 50,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:29:16.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:16.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:16.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 51,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:29:25.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:25.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:25.02 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 52,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:29:34.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:34.53 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:36.12 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 53,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+15:29:44.23 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:44.23 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+15:29:45.86 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 54,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:40:55.07 <info> devices.length 1 (in business.js:35)
+16:40:55.08 <info> deviceId: 0164ea12f06e00000000000100100225 exists. (in business.js:39)
+16:41:04.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000õ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:04.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000õ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:04.92 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 245,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:41:13.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ö',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:13.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ö',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:13.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 246,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:41:23.21 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000÷',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:23.21 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000÷',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:23.21 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 247,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:41:31.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ø',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:31.52 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ø',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:33.16 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 248,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:41:43.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ù',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:43.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ù',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:43.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 249,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:41:43.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ù',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:43.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ù',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:52.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ú',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:52.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ú',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:41:52.08 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 250,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:01.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000û',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:01.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000û',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:01.80 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 251,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:11.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ü',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:11.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ü',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:11.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 252,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:21.20 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ý',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:21.20 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ý',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:21.20 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 253,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:29.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000þ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:31.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000þ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:31.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 254,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:40.38 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ÿ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:40.38 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0000ÿ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:40.38 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 255,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:51.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:51.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:51.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 256,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:42:51.55 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:42:53.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:00.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:00.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0001',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:00.00 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 257,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:43:11.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:11.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:11.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 258,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:43:20.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:20.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0003',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:20.07 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 259,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:43:29.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:29.04 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0004',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:30.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 260,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:43:38.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:38.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0005',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:40.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 261,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:43:51.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:51.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0006',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:43:51.35 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 262,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:01.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0007',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:01.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0007',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:01.90 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 263,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:10.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:10.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:10.59 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 264,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:18.83 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\t',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:18.83 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\t',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:18.83 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 265,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:27.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\n',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:30.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\n',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:30.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 266,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:39.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u000b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:39.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u000b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:39.51 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 267,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:48.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:48.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:48.67 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 268,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:44:57.14 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\r',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:57.14 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\r',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:44:59.79 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 269,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:45:07.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:07.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u000e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:07.27 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 270,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:45:16.76 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:16.76 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u000f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:22.39 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 271,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:45:30.70 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:30.70 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:30.70 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 272,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:45:36.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0011',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:36.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0011',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:36.94 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 273,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:45:47.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0012',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:47.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0012',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:47.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 274,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:45:59.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0013',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:59.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0013',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:45:59.97 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 275,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:46:07.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0014',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:07.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0014',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:07.24 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 276,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:46:16.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0015',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:16.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0015',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:16.34 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 277,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:46:24.75 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0016',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:27.36 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0016',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:27.36 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 278,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:46:34.65 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0017',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:37.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0017',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:37.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 279,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:46:44.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0018',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:44.68 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0018',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:46.29 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 280,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:46:57.10 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0019',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:57.10 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0019',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:46:57.10 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 281,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:47:04.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:04.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001a',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:04.58 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 282,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:47:14.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:14.40 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:19.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 283,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:47:19.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:19.09 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001b',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:23.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:25.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001c',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:25.60 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 284,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:47:36.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:36.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001d',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:36.66 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 285,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:47:43.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:45.12 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001e',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:45.12 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 286,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:47:55.33 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:55.33 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u001f',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:47:55.33 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 287,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:48:06.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:06.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001 ',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:06.37 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 288,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:48:13.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001!',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:13.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001!',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:13.22 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 289,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:48:24.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001"',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:24.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001"',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:24.48 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 290,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:48:34.95 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001#',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:34.95 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001#',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:34.95 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 291,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:48:45.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:45.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001$',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:45.63 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 292,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:48:53.05 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001%',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:53.05 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001%',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:48:53.06 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 293,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:49:02.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001&',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:02.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001&',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:02.54 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 294,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:49:12.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\'',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:12.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001\'',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:12.31 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 295,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:49:21.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:21.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001(',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:21.88 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 296,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:49:32.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001)',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:32.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001)',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:32.28 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 297,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:49:41.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001*',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:41.13 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001*',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:42.77 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 298,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:49:53.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001+',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:53.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001+',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:49:53.96 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 299,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:50:01.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001,',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:01.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001,',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:01.78 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 300,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:50:11.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001-',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:11.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001-',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:11.17 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 301,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:50:22.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001.',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:22.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001.',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:22.49 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 302,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:50:33.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001/',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:33.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u0001/',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:33.69 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 303,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)
+16:50:40.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:40.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: '\u0000\u0000\u0000\u0000\u0000\u0000\u00010',
+  maxAge: 60,
+  contentType: undefined } (in business.js:42)
+16:50:40.32 <info> { deviceId: '0164ea12f06e00000000000100100225',
+  path: '/20002/3/31008',
+  payload: 304,
+  maxAge: 60,
+  contentType: 'text/plain' } (in business.js:42)

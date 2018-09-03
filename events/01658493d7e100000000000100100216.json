@@ -1,0 +1,10 @@
+{
+	"id": "01658493d7e100000000000100100216",
+	"eventDate": "2018-08-29T07:26:46.029Z",
+	"stateChanged": false,
+	"description": "Device firmware package checksum notification received",
+	"changes": {},
+	"typeDescription": "Device firmware package checksum notification received",
+	"type": "update.device.connector-device.firmware-update.package-checksum",
+	"deviceId": "0164ea12f06e00000000000100100225"
+}

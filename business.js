@@ -22,8 +22,8 @@ var preHeartBeat;
 var curHeartBeat;
 var timer;
 var duration = process.env.SCHEDULE_DURATION || 60;
+var exceptionTimes = 0;
 function startSchedule(){
-  var exceptionTimes = 0;
   timer = setInterval(function(){
     var surlreq = http.get("http://www.163.com", function (surlres) {  
         surlres.on("data", function (data) { 

@@ -102,6 +102,10 @@ function connectDevices(){
 function subscribeRes(){
     console.log("Subscribe the Resource - >");
     connect.removeAllListeners("OnValueUpdate");
+    connect.deleteDeviceSubscriptions(deviceId).catch(
+        error => {
+        console.log(error);
+    });
     connect.subscribe.resourceValues({resourcePaths: resourcePaths}, "OnValueUpdate")
             .addListener(res => 
                 {

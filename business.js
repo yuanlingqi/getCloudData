@@ -3,6 +3,7 @@ var logger = require('./logger');
 var request = require('./httpRequest');
 var http = require('http');
 var deviceId = "0164ea12f06e00000000000100100225";
+// var deviceId = "0165b275783a0000000000010010008e"
 //电表
 var resourcePaths = ["/20003/1/26267", "/20003/1/26266", "/20003/1/26259", "/20003/1/26263", "/20003/1/26255", "/20003/1/26251", "/20003/1/26247", "/20003/1/26241", "/20003/1/30008", "/20003/1/30007", "/20003/1/30006", "/20003/1/30005", "/20003/1/30004", "/20003/1/30003"
                 ,"/20002/1/28004", "/20002/1/31002", "/20002/1/31003", "/20002/1/31004", "/20002/1/31005", "/20002/1/31006", "/20002/1/31007","/20002/3/31008", "/20003/4/26241"];
@@ -38,6 +39,9 @@ function startSchedule(){
               if(curHeartBeat == preHeartBeat && curHeartBeat != undefined && preHeartBeat != undefined){
                 curHeartBeat = undefined;
                 preHeartBeat = undefined;
+                logger.info('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
+                connectDevices();
+              }else if(curHeartBeat == undefined && preHeartBeat == undefined){
                 logger.info('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
                 connectDevices();
               }else{

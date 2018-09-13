@@ -158,7 +158,7 @@ function recoverSubscribeRes(){
 function checkHeartbeat(){
     console.log('[checkHeartbeat]' + 'curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat);
     if(curHeartBeat == preHeartBeat){
-        console.log('[checkHeartbeat] The heartbeat stopped for ' + timeoutHeartbeat + 'seconds, need to reset!!');
+        console.log('[checkHeartbeat]The heartbeat stopped for ' + timeoutHeartbeat + ' seconds, need to reset!!');
         recoverSubscribeRes();
     }else{
         preHeartBeat = curHeartBeat;

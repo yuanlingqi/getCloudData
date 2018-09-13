@@ -123,8 +123,14 @@ function subscribeRes(){
     /*Subscribe the resources */
     connect.subscribe.resourceValues({resourcePaths: resourcePaths}, "OnValueUpdate")
         .addListener(res => {
-                logger.info(res.path + ':' + res.payload);
-                request(res.deviceId, res.path, res.payload, timeNow());
+                if(res.path == '/20002/3/31008'){
+                    logger.info('heartbeatRes:' + res.payload);
+                    curHeartBeat = res.payload;
+                }else{
+                    logger.info(res.path + ':' + res.payload);
+                    request(res.deviceId, res.path, res.payload, timeNow());
+
+                }
             })
         .addLocalFilter(res => res.contentType != undefined);
 

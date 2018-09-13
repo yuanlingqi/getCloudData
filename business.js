@@ -82,12 +82,14 @@ function startSchedule(){
  * MBED CLOUD SDK INIT
 ********************************************************************************************/
 var ApiKey_ArmTZ = "ak_1MDE1ODc3OTAzOGI0MDI0MjBhMDE0YzExMDAwMDAwMDA015d725ade7e02420a010d0600000000aGO6EmcXj7VWBymaYUBQCGfdM62CChWw";
-var ApiKey_Chint = "ak_1MDE2MjI5NGJkOTU3MGE1ODBhMDEyNDI4MDAwMDAwMDA016541f550d08669b5e804f500000000GOAaqJeIacOJuYQXCkKIN3OujXenUHmR";
+var ApiKey_Chint1 = "ak_1MDE2MjI5NGJkOTU3MGE1ODBhMDEyNDI4MDAwMDAwMDA016541f550d08669b5e804f500000000GOAaqJeIacOJuYQXCkKIN3OujXenUHmR";
+var ApiKey_Chint2 = "ak_1MDE2MjI5NGJkOTU3MGE1ODBhMDEyNDI4MDAwMDAwMDA0164a19f606292ac79f9389200000000J7YIJkOM8p2saqHsNXQqrav8G4h9LWbS";
+
 var Host_ArmUS  = "https://api.us-east-1.mbedcloud.com"
 
 /* CHINT-ARM */
-//var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint;
-var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
+var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
+//var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
 var apiHost = process.env.MBED_CLOUD_HOST || Host_ArmUS;
 
 var config = {

@@ -117,6 +117,8 @@ function listDevices() {
     });
 }
 
+var preValueStr;
+var curValueStr;
 /*Subscribe all relevant resouces from all devices */
 function subscribeRes(){
     logger.info("----Subscribe the resources ---->");
@@ -128,8 +130,12 @@ function subscribeRes(){
                     curHeartBeat = res.payload;
                 }else{
                     logger.info(res.path + ':' + res.payload);
-                    request(res.deviceId, res.path, res.payload, timeNow());
-
+                    curValueStr = res.deviceId + res.path + res.payload;
+                    //避免传递重复数据
+                    if (curValueStr != preValueStr) {
+                        request(res.deviceId, res.path, res.payload, timeNow());
+                        preValueStr = curValueStr;
+                    }
                 }
             })
         .addLocalFilter(res => res.contentType != undefined);
@@ -220,7 +226,7 @@ function startWatchDog(){
 ********************************************************************************************/
 function mainApp(){
     /*Just print out all connected devices, not really need */
-    listDevices();
+    // listDevices();
     /*Subscribe all resources need to monitor  */
     subscribeRes();
     /*Start the watchdog to handle hungup issues */

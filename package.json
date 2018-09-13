@@ -14,6 +14,7 @@
     "mbed-cloud-sdk": "^2.0.0",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
-    "tracer": "^0.8.11"
+    "tracer": "^0.8.11",
+    "moment": "^2.20.1"
   }
 }

@@ -31,13 +31,13 @@ module.exports = function(uuid, resourceId, value, createTime){
         value: value,
         createTime: createTime
     };
-    
+    http://10.5.107.102:8080/push
     var content = querystring.stringify(data); 
-      
+    // console.log(content);
     var options = {  
-        hostname: '54.222.168.82',  
-        port: 8085,  
-        path: '/ChintEdge/data/send?' + content,  
+        hostname: '10.5.107.102',  
+        port: 8080,  
+        path: '/push?' + content,  
         method: 'GET'  
     };  
       

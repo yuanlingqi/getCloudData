@@ -3,6 +3,7 @@ var logger = require('./logger');
 var request = require('./httpRequest');
 var http = require('http');
 var MbedCloudSDK = require("mbed-cloud-sdk");
+var moment = require('moment');
 /*******************************************************************************************
  * DEVICE AND RESOURCE
 ********************************************************************************************/
@@ -14,8 +15,8 @@ var deviceId = "0165b275783a0000000000010010008e"
 var heartbeatRes =["/20002/3/31008"];
 
 //电表
-var resourcePaths = ["/20003/1/26267", "/20003/1/26266", "/20003/1/26259", "/20003/1/26263", "/20003/1/26255", "/20003/1/26251", "/20003/1/26247", "/20003/1/26241", "/20003/1/30008", "/20003/1/30007", "/20003/1/30006", "/20003/1/30005", "/20003/1/30004", "/20003/1/30003"
-                ,"/20002/1/28004", "/20002/1/31002", "/20002/1/31003", "/20002/1/31004", "/20002/1/31005", "/20002/1/31006", "/20002/1/31007", "/20003/4/26241"];
+var resourcePaths = ["/20002/3/31008", "/20003/4/26267", "/20003/4/26266", "/20003/4/26259", "/20003/4/26263", "/20003/4/26255", "/20003/4/26251", "/20003/4/26247", "/20003/4/26241", "/20003/4/30008", "/20003/4/30007", "/20003/4/30006", "/20003/4/30005", "/20003/4/30004", "/20003/4/30003"
+                ,"/20002/3/28004", "/20002/3/31002", "/20002/3/31003", "/20002/3/31004", "/20002/3/31005", "/20002/3/31006", "/20002/3/31007", "/20003/4/26241"];
 
 //控制断路器分合闸的DO模块
 // var resourcePaths2 = ["/20002/1/28004", "/20002/1/31002", "/20002/1/31003", "/20002/1/31004", "/20002/1/31005", "/20002/1/31006", "/20002/1/31007"];
@@ -122,17 +123,17 @@ function subscribeRes(){
     /*Subscribe the resources */
     connect.subscribe.resourceValues({resourcePaths: resourcePaths}, "OnValueUpdate")
         .addListener(res => {
-                logger.info(res);
-                logger.info(res);
+                logger.info(res.path + ':' + res.payload);
+                request(res.deviceId, res.path, res.payload, timeNow());
             })
         .addLocalFilter(res => res.contentType != undefined);
 
     /*Subscribe the heartbeat resource */
-    connect.subscribe.resourceValues({ resourcePaths: heartbeatRes })
-        .addListener(res => {
-            logger.info('heartbeatRes:' + res.payload);
-            curHeartBeat = res.payload;
-        });
+    // connect.subscribe.resourceValues({ resourcePaths: heartbeatRes })
+    //     .addListener(res => {
+    //         logger.info('heartbeatRes:' + res.payload);
+    //         curHeartBeat = res.payload;
+    //     });
 }
 
 function recoverSubscribeRes(){
@@ -164,6 +165,12 @@ function checkHeartbeat(){
         preHeartBeat = curHeartBeat;
     }
 
+}
+
+function timeNow(){
+  var timeStr = moment();
+  var timeStr= timeStr.format('YYYY-MM-DD HH:mm:ss');
+  return timeStr;
 }
 
 function checkNetwork(){

@@ -261,17 +261,17 @@ app.put("/check", (req, res, next) => {
 
     var data = "";
     req.on("data", chunk => {
-        logger.info('data--1--' + data);
+        //logger.info('data--1--' + data);
         data += chunk;
     });
 
     req.on("end", () => {
-        logger.info('data--2--' + data);
+        //logger.info('data--2--' + data);
         // Parse data into JSON and inject into connect notification system
         data = JSON.parse(data);
         connect.notify(data);
     });
-    logger.info('data---3-' + data);
+    //logger.info('data---3-' + data);
     res.sendStatus(200);
 });
 
@@ -285,15 +285,14 @@ connect.getWebhook()
         if (webhook) {
             if (webhook.url === url) {
                 logger.info(`Webhook already set to ${url}`);
-                return;
             } else {
                 logger.info(`Webhook currently set to ${webhook.url}, changing to ${url}`);
             }
+            console.log('Always delete existing webhook first'); 
+            connect.deleteWebhook();
         } else {
             logger.info(`No webhook currently registered, setting to ${url}`);
-        }
-        connect.deleteWebhook();
-        console.log('Always delete existing webhook first');    
+        }   
         return connect.updateWebhook(url);
     })
     .then(() => {

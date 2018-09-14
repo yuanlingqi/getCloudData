@@ -255,7 +255,7 @@ function mainApp(){
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
 var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
-var port = 8080;
+var port = 9000;
 // Listen for PUTs at the root URL
 app.put("/check", (req, res, next) => {
 
@@ -292,6 +292,8 @@ connect.getWebhook()
         } else {
             console.log(`No webhook currently registered, setting to ${url}`);
         }
+        connect.deleteWebhook();
+        console.log('Always delete existing webhook first');    
         return connect.updateWebhook(url);
     })
     .then(() => {

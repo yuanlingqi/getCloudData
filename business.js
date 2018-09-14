@@ -11,7 +11,7 @@ try {
 } catch(e) {}
 
 if (!express) {
-    console.log("This example requires the 'express' server. Please install it by running 'npm install express'");
+    logger.info("This example requires the 'express' server. Please install it by running 'npm install express'");
     process.exit();
 }
 var app = express();
@@ -46,22 +46,22 @@ function startSchedule(){
   timer = setInterval(function(){
     var surlreq = http.get("http://www.163.com", function (surlres) {  
         surlres.on("data", function (data) { 
-            console.log('data:' + data);
+            logger.info('data:' + data);
         });  
         surlres.on("end", function () {  
             if(httpStatus == 0){
-              console.log('Network connection restored. reconnection now.--------');
+              logger.info('Network connection restored. reconnection now.--------');
               connectDevices();
               httpStatus = 1;
             }else {
-              console.log('network is ok! preHeartBeat: ' + preHeartBeat + ' curHeartBeat: ' + curHeartBeat);
+              logger.info('network is ok! preHeartBeat: ' + preHeartBeat + ' curHeartBeat: ' + curHeartBeat);
               if(curHeartBeat == preHeartBeat && curHeartBeat != undefined && preHeartBeat != undefined){
                 curHeartBeat = undefined;
                 preHeartBeat = undefined;
-                console.log('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
+                logger.info('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
                 connectDevices();
               }else if(curHeartBeat == undefined && preHeartBeat == undefined){
-                console.log('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
+                logger.info('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
                 connectDevices();
               }else{
                 preHeartBeat = curHeartBeat;
@@ -72,7 +72,7 @@ function startSchedule(){
       //网络异常
       httpStatus = 0;
       logger.error(error);
-      console.log('network is broken.');
+      logger.info('network is broken.');
     });  
   },duration * 1000);
 
@@ -90,7 +90,7 @@ function startSchedule(){
     return value;
   });
   cache = null; // Enable garbage collection
-  console.log('timerId:----------' + sid);
+  logger.info('timerId:----------' + sid);
 }
 /*******************************************************************************************
  * MBED CLOUD SDK INIT
@@ -119,17 +119,17 @@ var connect = new MbedCloudSDK.ConnectApi(config);
 ********************************************************************************************/
 // List Connected Devices
 function listDevices() {
-    console.log("----List Connected Devices ---- >");
+    logger.info("----List Connected Devices ---- >");
     return connect.listConnectedDevices()
     .then(response => {
-        //console.log(response);
+        //logger.info(response);
         response.data.forEach(device => {
-            console.log(`Device: ${device.id}`);
+            logger.info(`Device: ${device.id}`);
         });
         
     })
     .catch(error => {
-        console.log(`\t└\x1b[0m: Error: ${error.message}`);
+        logger.info(`\t└\x1b[0m: Error: ${error.message}`);
     });
 }
 
@@ -139,16 +139,16 @@ var ResObserver;
 
 /*Subscribe all relevant resouces from all devices */
 function subscribeRes(){
-    console.log("----Subscribe the resources ---->");
+    logger.info("----Subscribe the resources ---->");
     /*Subscribe the resources */
     ResObserver = connect.subscribe.resourceValues({deviceId: deviceId, resourcePaths: resourcePaths}, "OnValueUpdate")
         .addListener(res => {
-                console.log(res);
+                logger.info(res);
                 if(res.path == '/20002/3/31008'){
-                    console.log('heartbeatRes:' + res.payload);
+                    logger.info('heartbeatRes:' + res.payload);
                     curHeartBeat = res.payload;
                 }else{
-                    console.log(res.path + ':' + res.payload);
+                    logger.info(res.path + ':' + res.payload);
                     curValueStr = res.deviceId + res.path + res.payload;
                     //避免传递重复数据
                     if (curValueStr != preValueStr) {
@@ -162,7 +162,7 @@ function subscribeRes(){
     /*Subscribe the heartbeat resource */
     // connect.subscribe.resourceValues({ resourcePaths: heartbeatRes })
     //     .addListener(res => {
-    //         console.log('heartbeatRes:' + res.payload);
+    //         logger.info('heartbeatRes:' + res.payload);
     //         curHeartBeat = res.payload;
     //     });
 }
@@ -176,11 +176,11 @@ function recoverSubscribeRes(){
     /* Remove all subscriptions and presubscriptions */
     connect.deleteSubscriptions()
     .catch(error => {
-        console.log(error);
+        logger.info(error);
     });
     connect.deletePresubscriptions()
     .catch(error => {
-        console.log(error);
+        logger.info(error);
     });
     /* Redo the subscription and watchdog  */
     subscribeRes();
@@ -188,9 +188,9 @@ function recoverSubscribeRes(){
 }
 
 function checkHeartbeat(){
-    console.log('[checkHeartbeat]' + 'curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat);
+    logger.info('[checkHeartbeat]' + 'curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat);
     if(curHeartBeat == preHeartBeat){
-        console.log('[checkHeartbeat]The heartbeat stopped for ' + timeoutHeartbeat + ' seconds, need to reset!!');
+        logger.info('[checkHeartbeat]The heartbeat stopped for ' + timeoutHeartbeat + ' seconds, need to reset!!');
         recoverSubscribeRes();
     }else{
         preHeartBeat = curHeartBeat;
@@ -207,22 +207,22 @@ function timeNow(){
 function checkNetwork(){
     var surlreq = http.get("http://www.163.com", function (surlres) {  
         surlres.on("data", function (data) { 
-            console.log('data:' + data);
+            logger.info('data:' + data);
         });  
         surlres.on("end", function () {  
             if(httpStatus == 0){
-              console.log('Network connection restored. reconnection now.--------');
+              logger.info('Network connection restored. reconnection now.--------');
               recoverSubscribeRes();
               httpStatus = 1;
             }else {
-              console.log('network is ok!');
+              logger.info('network is ok!');
             }
         });  
     }).on("error", function (error) {  
       //网络异常
       httpStatus = 0;
       logger.error(error);
-      console.log('network is broken.');
+      logger.info('network is broken.');
     }); 
 }
 
@@ -261,36 +261,36 @@ app.put("/check", (req, res, next) => {
 
     var data = "";
     req.on("data", chunk => {
-        console.log('data--1--' + data);
+        logger.info('data--1--' + data);
         data += chunk;
     });
 
     req.on("end", () => {
-        console.log('data--2--' + data);
+        logger.info('data--2--' + data);
         // Parse data into JSON and inject into connect notification system
         data = JSON.parse(data);
         connect.notify(data);
     });
-    console.log('data---3-' + data);
+    logger.info('data---3-' + data);
     res.sendStatus(200);
 });
 
 // Start server
 http.createServer(app).listen(port, () => {
-    console.log(`Webhook server listening on port ${port}`);
+    logger.info(`Webhook server listening on port ${port}`);
 });
 
 connect.getWebhook()
     .then(webhook => {
         if (webhook) {
             if (webhook.url === url) {
-                console.log(`Webhook already set to ${url}`);
+                logger.info(`Webhook already set to ${url}`);
                 return;
             } else {
-                console.log(`Webhook currently set to ${webhook.url}, changing to ${url}`);
+                logger.info(`Webhook currently set to ${webhook.url}, changing to ${url}`);
             }
         } else {
-            console.log(`No webhook currently registered, setting to ${url}`);
+            logger.info(`No webhook currently registered, setting to ${url}`);
         }
         connect.deleteWebhook();
         console.log('Always delete existing webhook first');    
@@ -300,6 +300,6 @@ connect.getWebhook()
         mainApp();
     })
     .catch(error => {
-        console.log(`${error.message} - Unable to set webhook to ${url}, please ensure the URL is publicly accessible`);
+        logger.info(`${error.message} - Unable to set webhook to ${url}, please ensure the URL is publicly accessible`);
         process.exit();
     });

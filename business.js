@@ -104,7 +104,7 @@ var Host_ArmUS  = "https://api.us-east-1.mbedcloud.com"
 
 /* CHINT-ARM */
 //var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
-var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
+var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint_Jianbing;
 var apiHost = process.env.MBED_CLOUD_HOST || Host_ArmUS;
 
 var config = {
@@ -254,22 +254,24 @@ function mainApp(){
 
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
-var url = "http://9db7b687.ngrok.io";
+var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
 var port = 8080;
 // Listen for PUTs at the root URL
-app.put("/", (req, res, next) => {
+app.put("/check", (req, res, next) => {
 
     var data = "";
     req.on("data", chunk => {
+        console.log('data--1--' + data);
         data += chunk;
     });
 
     req.on("end", () => {
+        console.log('data--2--' + data);
         // Parse data into JSON and inject into connect notification system
         data = JSON.parse(data);
         connect.notify(data);
     });
-
+    console.log('data---3-' + data);
     res.sendStatus(200);
 });
 

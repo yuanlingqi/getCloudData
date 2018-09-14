@@ -2,7 +2,20 @@ require('dotenv').config({ silent: true });
 var logger = require('./logger');
 var request = require('./httpRequest');
 var http = require('http');
+var fs = require("fs");
 var MbedCloudSDK = require("mbed-cloud-sdk");
+
+/** Install EXPRESS server */
+try {
+    var express = require("express");
+} catch(e) {}
+
+if (!express) {
+    console.log("This example requires the 'express' server. Please install it by running 'npm install express'");
+    process.exit();
+}
+var app = express();
+
 /*******************************************************************************************
  * DEVICE AND RESOURCE
 ********************************************************************************************/
@@ -158,10 +171,8 @@ function recoverSubscribeRes(){
     /* Stop the Interval */
     clearInterval(watchdogInterval);
     /* Stop this observer receiving notifications from the channel */
-    ResObserver.unsubscribe()
-    .catch(error => {
-        console.log(error);
-    });
+    ResObserver.unsubscribe();
+
     /* Remove all subscriptions and presubscriptions */
     connect.deleteSubscriptions()
     .catch(error => {
@@ -244,6 +255,29 @@ function mainApp(){
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
 var url = "http://9db7b687.ngrok.io";
+var port = 8080;
+// Listen for PUTs at the root URL
+app.put("/", (req, res, next) => {
+
+    var data = "";
+    req.on("data", chunk => {
+        data += chunk;
+    });
+
+    req.on("end", () => {
+        // Parse data into JSON and inject into connect notification system
+        data = JSON.parse(data);
+        connect.notify(data);
+    });
+
+    res.sendStatus(200);
+});
+
+// Start server
+http.createServer(app).listen(port, () => {
+    console.log(`Webhook server listening on port ${port}`);
+});
+
 connect.getWebhook()
     .then(webhook => {
         if (webhook) {

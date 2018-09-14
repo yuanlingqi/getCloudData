@@ -2,7 +2,7 @@ var http=require('http');
 const querystring = require("querystring");
 var logger = require('./logger');
 
-module.exports = function(uuid, resourceId, value, createTime){
+module.exports = function(uuid, resourceId, value, createTime, name, status){
     // var queryString = 'http://54.222.168.82:8085/ChintEdge/send?';
     // var params = 'id=' + uuid + '&resourceId=' + querystring.escape(resourceId) + '&value=' + value + '&createTime=' + querystring.escape(createTime);
     // logger.info('queryString=' +queryString + params);
@@ -29,7 +29,9 @@ module.exports = function(uuid, resourceId, value, createTime){
         id: uuid,
         resourceId: resourceId,
         value: value,
-        createTime: createTime
+        createTime: createTime,
+        name:name,
+        status:status
     };
     http://10.5.107.102:8080/push
     var content = querystring.stringify(data); 

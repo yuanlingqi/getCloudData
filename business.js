@@ -97,7 +97,8 @@ var config = {
 };
 
 var connect = new MbedCloudSDK.ConnectApi(config);
-
+var deviceName;
+var connected = 0;
 /*******************************************************************************************
  * FUNTIONS
 ********************************************************************************************/
@@ -108,7 +109,16 @@ function listDevices() {
     .then(response => {
         //logger.info(response);
         response.data.forEach(device => {
-            logger.info(`Device: ${device.id}`);
+            // logger.info('-------' + device.id);
+            if (device.id == deviceId) {
+                deviceName =  device.serialNumber;
+                connected = 1;
+                /*Subscribe all resources need to monitor  */
+                subscribeRes();
+                /*Start the watchdog to handle hungup issues */
+                startWatchDog();
+                logger.info(device.serialNumber);
+            }
         });
         
     })
@@ -133,7 +143,7 @@ function subscribeRes(){
                     curValueStr = res.deviceId + res.path + res.payload;
                     //避免传递重复数据
                     if (curValueStr != preValueStr) {
-                        request(res.deviceId, res.path, res.payload, timeNow());
+                        request(res.deviceId, res.path, res.payload, timeNow(),deviceName, connected);
                         preValueStr = curValueStr;
                     }
                 }
@@ -151,7 +161,7 @@ function subscribeRes(){
 function recoverSubscribeRes(){
     /* Stop the Interval */
     clearInterval(watchdogInterval);
-
+    connected = 0;
     /* Remove all subscriptions and presubscriptions */
     connect.deleteSubscriptions()
     .catch(error => {
@@ -163,8 +173,9 @@ function recoverSubscribeRes(){
     });
 
     /* Redo the subscription and watchdog  */
-    subscribeRes();
-    startWatchDog();
+    listDevices();
+    // subscribeRes();
+    // startWatchDog();
 }
 
 
@@ -226,11 +237,11 @@ function startWatchDog(){
 ********************************************************************************************/
 function mainApp(){
     /*Just print out all connected devices, not really need */
-    // listDevices();
+    listDevices();
     /*Subscribe all resources need to monitor  */
-    subscribeRes();
+    // subscribeRes();
     /*Start the watchdog to handle hungup issues */
-    startWatchDog();
+    // startWatchDog();
 }
 
 /* No webhook, run on local machine ARM-CHINT */

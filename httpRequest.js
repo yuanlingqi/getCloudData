@@ -37,7 +37,7 @@ module.exports = function(uuid, resourceId, value, createTime, name, status){
     var content = querystring.stringify(data); 
     // console.log(content);
     var options = {  
-        hostname: '10.5.107.102',  
+        hostname: 'ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn',  
         port: 8080,  
         path: '/push?' + content,  
         method: 'GET'  

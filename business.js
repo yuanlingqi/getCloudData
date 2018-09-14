@@ -245,12 +245,12 @@ function mainApp(){
 }
 
 /* No webhook, run on local machine ARM-CHINT */
-mainApp();
+// mainApp();
 
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
-/*
-var url = "http://2976cb8f.ngrok.io";
+
+var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080";
 connect.getWebhook()
     .then(webhook => {
         if (webhook) {
@@ -273,4 +273,3 @@ connect.getWebhook()
         logger.info(`${error.message} - Unable to set webhook to ${url}, please ensure the URL is publicly accessible`);
         process.exit();
     });
-*/

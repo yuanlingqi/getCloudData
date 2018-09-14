@@ -289,9 +289,12 @@ connect.getWebhook()
             } else {
                 console.log(`Webhook currently set to ${webhook.url}, changing to ${url}`);
             }
+            console.log('Always delete existing webhook first');
+            connect.deleteWebhook();
         } else {
             console.log(`No webhook currently registered, setting to ${url}`);
         }
+
         return connect.updateWebhook(url);
     })
     .then(() => {

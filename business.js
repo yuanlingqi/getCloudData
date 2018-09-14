@@ -10,12 +10,13 @@ var deviceId = "0164ea12f06e00000000000100100225";
 // var deviceId = "0165b275783a0000000000010010008e"
 
 /* heartbeat resource used for watchdog - ARM-CHINT*/
-var heartbeatRes = ["/3200/0/5501"];
-//var heartbeatRes =["/20002/3/31008"];
+
+// var heartbeatRes = ["/3200/0/5501"];
+// var heartbeatRes =["/20002/3/31008"];
 
 //电表
-var resourcePaths = ["/20003/1/26267", "/20003/1/26266", "/20003/1/26259", "/20003/1/26263", "/20003/1/26255", "/20003/1/26251", "/20003/1/26247", "/20003/1/26241", "/20003/1/30008", "/20003/1/30007", "/20003/1/30006", "/20003/1/30005", "/20003/1/30004", "/20003/1/30003"
-                ,"/20002/1/28004", "/20002/1/31002", "/20002/1/31003", "/20002/1/31004", "/20002/1/31005", "/20002/1/31006", "/20002/1/31007","/20002/3/31008", "/20003/4/26241"];
+var resourcePaths = ["/3200/0/5501", "/20002/3/31008", "/20003/4/26267", "/20003/4/26266", "/20003/4/26259", "/20003/4/26263", "/20003/4/26255", "/20003/4/26251", "/20003/4/26247", "/20003/4/26241", "/20003/4/30008", "/20003/4/30007", "/20003/4/30006", "/20003/4/30005", "/20003/4/30004", "/20003/4/30003"
+                ,"/20002/3/28004", "/20002/3/31002", "/20002/3/31003", "/20002/3/31004", "/20002/3/31005", "/20002/3/31006", "/20002/3/31007", "/20003/4/26241"];
 
 //控制断路器分合闸的DO模块
 // var resourcePaths2 = ["/20002/1/28004", "/20002/1/31002", "/20002/1/31003", "/20002/1/31004", "/20002/1/31005", "/20002/1/31006", "/20002/1/31007"];
@@ -32,22 +33,22 @@ function startSchedule(){
   timer = setInterval(function(){
     var surlreq = http.get("http://www.163.com", function (surlres) {  
         surlres.on("data", function (data) { 
-            logger.info('data:' + data);
+            console.log('data:' + data);
         });  
         surlres.on("end", function () {  
             if(httpStatus == 0){
-              logger.info('Network connection restored. reconnection now.--------');
+              console.log('Network connection restored. reconnection now.--------');
               connectDevices();
               httpStatus = 1;
             }else {
-              logger.info('network is ok! preHeartBeat: ' + preHeartBeat + ' curHeartBeat: ' + curHeartBeat);
+              console.log('network is ok! preHeartBeat: ' + preHeartBeat + ' curHeartBeat: ' + curHeartBeat);
               if(curHeartBeat == preHeartBeat && curHeartBeat != undefined && preHeartBeat != undefined){
                 curHeartBeat = undefined;
                 preHeartBeat = undefined;
-                logger.info('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
+                console.log('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
                 connectDevices();
               }else if(curHeartBeat == undefined && preHeartBeat == undefined){
-                logger.info('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
+                console.log('curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat + '. may disconnected. reconnect now.--------' + ++exceptionTimes);
                 connectDevices();
               }else{
                 preHeartBeat = curHeartBeat;
@@ -58,7 +59,7 @@ function startSchedule(){
       //网络异常
       httpStatus = 0;
       logger.error(error);
-      logger.info('network is broken.');
+      console.log('network is broken.');
     });  
   },duration * 1000);
 
@@ -76,20 +77,21 @@ function startSchedule(){
     return value;
   });
   cache = null; // Enable garbage collection
-  logger.info('timerId:----------' + sid);
+  console.log('timerId:----------' + sid);
 }
 /*******************************************************************************************
  * MBED CLOUD SDK INIT
 ********************************************************************************************/
 var ApiKey_ArmTZ = "ak_1MDE1ODc3OTAzOGI0MDI0MjBhMDE0YzExMDAwMDAwMDA015d725ade7e02420a010d0600000000aGO6EmcXj7VWBymaYUBQCGfdM62CChWw";
+var ApiKey_Chint_Jianbing = "ak_1MDE2MjI5NGJkOTU3MGE1ODBhMDEyNDI4MDAwMDAwMDA016588cddef25207809e0373000000002wUtterIo04qC3x2vpTd9yuvqmhA7Rb9";
 var ApiKey_Chint1 = "ak_1MDE2MjI5NGJkOTU3MGE1ODBhMDEyNDI4MDAwMDAwMDA016541f550d08669b5e804f500000000GOAaqJeIacOJuYQXCkKIN3OujXenUHmR";
 var ApiKey_Chint2 = "ak_1MDE2MjI5NGJkOTU3MGE1ODBhMDEyNDI4MDAwMDAwMDA0164a19f606292ac79f9389200000000J7YIJkOM8p2saqHsNXQqrav8G4h9LWbS";
 
 var Host_ArmUS  = "https://api.us-east-1.mbedcloud.com"
 
 /* CHINT-ARM */
-var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
 //var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
+var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
 var apiHost = process.env.MBED_CLOUD_HOST || Host_ArmUS;
 
 var config = {
@@ -118,29 +120,48 @@ function listDevices() {
     });
 }
 
+var preValueStr;
+var curValueStr;
+var ResObserver;
+
 /*Subscribe all relevant resouces from all devices */
 function subscribeRes(){
     console.log("----Subscribe the resources ---->");
     /*Subscribe the resources */
-    connect.subscribe.resourceValues({resourcePaths: resourcePaths}, "OnValueUpdate")
+    ResObserver = connect.subscribe.resourceValues({deviceId: deviceId, resourcePaths: resourcePaths}, "OnValueUpdate")
         .addListener(res => {
                 console.log(res);
-                logger.info(res);
+                if(res.path == '/20002/3/31008'){
+                    console.log('heartbeatRes:' + res.payload);
+                    curHeartBeat = res.payload;
+                }else{
+                    console.log(res.path + ':' + res.payload);
+                    curValueStr = res.deviceId + res.path + res.payload;
+                    //避免传递重复数据
+                    if (curValueStr != preValueStr) {
+                        request(res.deviceId, res.path, res.payload, timeNow());
+                        preValueStr = curValueStr;
+                    }
+                }
             })
-        .addLocalFilter(res => res.contentType != undefined);
+        //.addLocalFilter(res => res.contentType != undefined);
 
     /*Subscribe the heartbeat resource */
-    connect.subscribe.resourceValues({ resourcePaths: heartbeatRes })
-        .addListener(res => {
-            console.log('heartbeatRes:' + res.payload);
-            curHeartBeat = res.payload;
-        });
+    // connect.subscribe.resourceValues({ resourcePaths: heartbeatRes })
+    //     .addListener(res => {
+    //         console.log('heartbeatRes:' + res.payload);
+    //         curHeartBeat = res.payload;
+    //     });
 }
 
 function recoverSubscribeRes(){
     /* Stop the Interval */
     clearInterval(watchdogInterval);
-
+    /* Stop this observer receiving notifications from the channel */
+    ResObserver.unsubscribe()
+    .catch(error => {
+        console.log(error);
+    });
     /* Remove all subscriptions and presubscriptions */
     connect.deleteSubscriptions()
     .catch(error => {
@@ -150,12 +171,10 @@ function recoverSubscribeRes(){
     .catch(error => {
         console.log(error);
     });
-
     /* Redo the subscription and watchdog  */
     subscribeRes();
     startWatchDog();
 }
-
 
 function checkHeartbeat(){
     console.log('[checkHeartbeat]' + 'curHeartBeat=' + curHeartBeat + ' preHeartBeat=' + preHeartBeat);
@@ -166,6 +185,34 @@ function checkHeartbeat(){
         preHeartBeat = curHeartBeat;
     }
 
+}
+
+function timeNow(){
+  var timeStr = moment();
+  var timeStr= timeStr.format('YYYY-MM-DD HH:mm:ss');
+  return timeStr;
+}
+
+function checkNetwork(){
+    var surlreq = http.get("http://www.163.com", function (surlres) {  
+        surlres.on("data", function (data) { 
+            console.log('data:' + data);
+        });  
+        surlres.on("end", function () {  
+            if(httpStatus == 0){
+              console.log('Network connection restored. reconnection now.--------');
+              recoverSubscribeRes();
+              httpStatus = 1;
+            }else {
+              console.log('network is ok!');
+            }
+        });  
+    }).on("error", function (error) {  
+      //网络异常
+      httpStatus = 0;
+      logger.error(error);
+      console.log('network is broken.');
+    }); 
 }
 
 /* Check heartbeat resource every "timeout_heartbeat", if the value did not changed, recover*/
@@ -192,12 +239,11 @@ function mainApp(){
 }
 
 /* No webhook, run on local machine ARM-CHINT */
-mainApp();
+//mainApp();
 
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
-/*
-var url = "http://2976cb8f.ngrok.io";
+var url = "http://9db7b687.ngrok.io";
 connect.getWebhook()
     .then(webhook => {
         if (webhook) {
@@ -210,7 +256,6 @@ connect.getWebhook()
         } else {
             console.log(`No webhook currently registered, setting to ${url}`);
         }
-
         return connect.updateWebhook(url);
     })
     .then(() => {
@@ -220,4 +265,3 @@ connect.getWebhook()
         console.log(`${error.message} - Unable to set webhook to ${url}, please ensure the URL is publicly accessible`);
         process.exit();
     });
-*/

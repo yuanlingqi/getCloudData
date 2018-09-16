@@ -1,4 +1,3 @@
-require('dotenv').config({ silent: true });
 var logger = require('./logger');
 var request = require('./httpRequest');
 var http = require('http');

@@ -3,6 +3,7 @@ var logger = require('./logger');
 var request = require('./httpRequest');
 var http = require('http');
 var fs = require("fs");
+var moment = require('moment');
 var MbedCloudSDK = require("mbed-cloud-sdk");
 
 /** Install EXPRESS server */
@@ -19,8 +20,8 @@ var app = express();
 /*******************************************************************************************
  * DEVICE AND RESOURCE
 ********************************************************************************************/
-var deviceId = "0164ea12f06e00000000000100100225";
-// var deviceId = "0165b275783a0000000000010010008e"
+//var deviceId = "0164ea12f06e00000000000100100225";
+var deviceId = "0165b275783a0000000000010010008e"
 
 /* heartbeat resource used for watchdog - ARM-CHINT*/
 
@@ -104,7 +105,7 @@ var Host_ArmUS  = "https://api.us-east-1.mbedcloud.com"
 
 /* CHINT-ARM */
 //var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
-var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint_Jianbing;
+var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
 var apiHost = process.env.MBED_CLOUD_HOST || Host_ArmUS;
 
 var config = {
@@ -141,7 +142,7 @@ var ResObserver;
 function subscribeRes(){
     console.log("----Subscribe the resources ---->");
     /*Subscribe the resources */
-    ResObserver = connect.subscribe.resourceValues({deviceId: deviceId, resourcePaths: resourcePaths}, "OnValueUpdate")
+    ResObserver = connect.subscribe.resourceValues({resourcePaths: resourcePaths}, "OnValueUpdate")
         .addListener(res => {
                 console.log(res);
                 if(res.path == '/20002/3/31008'){
@@ -198,6 +199,7 @@ function checkHeartbeat(){
 
 }
 
+var moment = require('moment');
 function timeNow(){
   var timeStr = moment();
   var timeStr= timeStr.format('YYYY-MM-DD HH:mm:ss');
@@ -250,11 +252,21 @@ function mainApp(){
 }
 
 /* No webhook, run on local machine ARM-CHINT */
+//connect.deleteWebhook();
 //mainApp();
 
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
+<<<<<<< Updated upstream
 var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
+=======
+
+/** ARM-CHINT */
+//var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
+//var port = 9000;
+
+var url = "http://ec2-52-14-31-94.us-east-2.compute.amazonaws.com/check";
+>>>>>>> Stashed changes
 var port = 8080;
 // Listen for PUTs at the root URL
 app.put("/check", (req, res, next) => {

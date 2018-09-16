@@ -257,16 +257,11 @@ function mainApp(){
 
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
-<<<<<<< Updated upstream
-var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
-=======
-
 /** ARM-CHINT */
 //var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
 //var port = 9000;
 
 var url = "http://ec2-52-14-31-94.us-east-2.compute.amazonaws.com/check";
->>>>>>> Stashed changes
 var port = 8080;
 // Listen for PUTs at the root URL
 app.put("/check", (req, res, next) => {

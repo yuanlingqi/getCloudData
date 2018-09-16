@@ -19,8 +19,8 @@ var app = express();
 /*******************************************************************************************
  * DEVICE AND RESOURCE
 ********************************************************************************************/
-var deviceId = "0164ea12f06e00000000000100100225";
-// var deviceId = "0165b275783a0000000000010010008e"
+//var deviceId = "0164ea12f06e00000000000100100225";
+var deviceId = "0165b275783a0000000000010010008e"
 
 /* heartbeat resource used for watchdog - ARM-CHINT*/
 
@@ -104,7 +104,7 @@ var Host_ArmUS  = "https://api.us-east-1.mbedcloud.com"
 
 /* CHINT-ARM */
 //var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
-var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint_Jianbing;
+var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
 var apiHost = process.env.MBED_CLOUD_HOST || Host_ArmUS;
 
 var config = {
@@ -250,12 +250,17 @@ function mainApp(){
 }
 
 /* No webhook, run on local machine ARM-CHINT */
+//connect.deleteWebhook();
 //mainApp();
 
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
-var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
-var port = 9000;
+/** ARM-CHINT */
+//var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
+//var port = 9000;
+
+var url = "http://ec2-52-14-31-94.us-east-2.compute.amazonaws.com/check";
+var port = 8080;
 // Listen for PUTs at the root URL
 app.put("/check", (req, res, next) => {
 

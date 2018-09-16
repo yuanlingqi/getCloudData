@@ -3,6 +3,7 @@ var logger = require('./logger');
 var request = require('./httpRequest');
 var http = require('http');
 var fs = require("fs");
+var moment = require("moment");
 var MbedCloudSDK = require("mbed-cloud-sdk");
 
 /** Install EXPRESS server */
@@ -15,6 +16,7 @@ if (!express) {
     process.exit();
 }
 var app = express();
+
 
 /*******************************************************************************************
  * DEVICE AND RESOURCE
@@ -113,6 +115,7 @@ var config = {
 };
 
 var connect = new MbedCloudSDK.ConnectApi(config);
+connect.handleNotifications = true;
 
 /*******************************************************************************************
  * FUNTIONS
@@ -141,9 +144,10 @@ var ResObserver;
 function subscribeRes(){
     logger.info("----Subscribe the resources ---->");
     /*Subscribe the resources */
-    ResObserver = connect.subscribe.resourceValues({deviceId: deviceId, resourcePaths: resourcePaths}, "OnValueUpdate")
+    //ResObserver = connect.subscribe.resourceValues({resourcePaths: resourcePaths}, "OnValueUpdate")
+    ResObserver = connect.subscribe.resourceValues({deviceId:deviceId, resourcePaths: resourcePaths}, "OnRegistration")
         .addListener(res => {
-                logger.info(res);
+                //logger.info(res);
                 if(res.path == '/20002/3/31008'){
                     logger.info('heartbeatRes:' + res.payload);
                     curHeartBeat = res.payload;
@@ -157,7 +161,7 @@ function subscribeRes(){
                     }
                 }
             })
-        //.addLocalFilter(res => res.contentType != undefined);
+        .addLocalFilter(res => res.contentType != undefined);
 
     /*Subscribe the heartbeat resource */
     // connect.subscribe.resourceValues({ resourcePaths: heartbeatRes })
@@ -167,7 +171,7 @@ function subscribeRes(){
     //     });
 }
 
-function recoverSubscribeRes(){
+function removeSubscribeRes(){
     /* Stop the Interval */
     clearInterval(watchdogInterval);
     /* Stop this observer receiving notifications from the channel */
@@ -182,6 +186,12 @@ function recoverSubscribeRes(){
     .catch(error => {
         logger.info(error);
     });
+    console.log('Subscription Removed!');
+}
+        
+function recoverSubscribeRes(){
+    /* Remove all the subscriptions */
+    removeSubscribeRes();
     /* Redo the subscription and watchdog  */
     subscribeRes();
     startWatchDog();
@@ -259,15 +269,15 @@ function mainApp(){
 //var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
 //var port = 9000;
 
-var url = "http://ec2-52-14-31-94.us-east-2.compute.amazonaws.com:8080/check";
-var port = 8080;
+var url = "http://52.14.31.94:9000/check";
+var port = 9000;
 
 // Listen for PUTs at the root URL
 app.put("/check", (req, res, next) => {
 
     var data = "";
     req.on("data", chunk => {
-        //logger.info('data--1--' + data);
+       // logger.info('data--1--' + data);
         data += chunk;
     });
 
@@ -281,21 +291,74 @@ app.put("/check", (req, res, next) => {
     res.sendStatus(200);
 });
 
-// Start server
+app.get('/', function(req, res) {
+		
+   // Send the HTTP header 
+   // HTTP Status: 200 : OK
+   // Content Type: text/plain
+   res.writeHead(200, {'Content-Type': 'text/plain'});
+   
+   // Send the response body as "Hello World"
+   res.end('Entering either ${url}chint or ${url}arm \n');
+		
+});
+
+// Handle unexpected server errors
+app.use(function(err, req, res, next) {
+    if (req.xhr) {
+        res.status(err.status || 500).send({ error: 'Something failed!' });
+        res.render('error', {
+            message: err.stack,
+            error: err
+        });
+    } else {
+        next(err);
+    }
+});
+
+
+
+
+// iStart server
 http.createServer(app).listen(port, () => {
     logger.info(`Webhook server listening on port ${port}`);
 });
+
+
+process.on('uncaughtException', function (err) {
+    console.log('Caught exception: ' + err);
+    removeSubscribeRes();
+    process.exit();
+});
+
+process.on('exit', function () {
+    process.nextTick(function () {
+      console.log('This will not run');
+    });
+    console.log('About to exit.');
+    removeSubscribeRes();
+    process.exit();
+});
+
+process.on('SIGINT', function() {
+  console.log('SIGINT，Control-D');
+  //removeSubscribeRes();
+  process.exit();
+});
+
+//mainApp();
 
 connect.getWebhook()
     .then(webhook => {
         if (webhook) {
             if (webhook.url === url) {
                 logger.info(`Webhook already set to ${url}`);
+		return;
             } else {
                 logger.info(`Webhook currently set to ${webhook.url}, changing to ${url}`);
             }
             console.log('Always delete existing webhook first'); 
-            connect.deleteWebhook();
+            // connect.deleteWebhook();
         } else {
             logger.info(`No webhook currently registered, setting to ${url}`);
         }   
@@ -308,3 +371,4 @@ connect.getWebhook()
         logger.info(`${error.message} - Unable to set webhook to ${url}, please ensure the URL is publicly accessible`);
         process.exit();
     });
+

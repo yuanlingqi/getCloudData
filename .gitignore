@@ -3,10 +3,10 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## Build generated
-log
+log/
+node_modules/
 build/
 DerivedData
-node_modules
 ## Various settings
 *.pbxuser
 !default.pbxuser

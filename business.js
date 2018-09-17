@@ -30,7 +30,7 @@ var deviceId = "0165b275783a0000000000010010008e"
 // var heartbeatRes =["/20002/3/31008"];
 
 //电表
-var resourcePaths = ["/3200/0/5501", "/20002/3/31008", "/20003/4/26267", "/20003/4/26266", "/20003/4/26259", "/20003/4/26263", "/20003/4/26255", "/20003/4/26251", "/20003/4/26247", "/20003/4/26241", "/20003/4/30008", "/20003/4/30007", "/20003/4/30006", "/20003/4/30005", "/20003/4/30004", "/20003/4/30003"
+var resourcePaths = ["/20002/3/31008", "/20003/4/26267", "/20003/4/26266", "/20003/4/26259", "/20003/4/26263", "/20003/4/26255", "/20003/4/26251", "/20003/4/26247", "/20003/4/26241", "/20003/4/30008", "/20003/4/30007", "/20003/4/30006", "/20003/4/30005", "/20003/4/30004", "/20003/4/30003"
                 ,"/20002/3/28004", "/20002/3/31002", "/20002/3/31003", "/20002/3/31004", "/20002/3/31005", "/20002/3/31006", "/20002/3/31007", "/20003/4/26241"];
 
 //控制断路器分合闸的DO模块
@@ -106,7 +106,7 @@ var Host_ArmUS  = "https://api.us-east-1.mbedcloud.com"
 
 /* CHINT-ARM */
 //var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_ArmTZ;
-var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint2;
+var accessKey = process.env.MBED_CLOUD_API_KEY || ApiKey_Chint_Jianbing;
 var apiHost = process.env.MBED_CLOUD_HOST || Host_ArmUS;
 
 var config = {
@@ -266,10 +266,10 @@ function mainApp(){
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
 /** ARM-CHINT */
-//var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
+var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
 //var port = 9000;
 
-var url = "http://52.14.31.94:9000/check";
+// var url = "http://52.14.31.94:9000/check";
 var port = 9000;
 
 // Listen for PUTs at the root URL

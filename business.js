@@ -11,12 +11,15 @@ try {
     var express = require("express");
 } catch(e) {}
 
+
+
 if (!express) {
     logger.info("This example requires the 'express' server. Please install it by running 'npm install express'");
     process.exit();
 }
 var app = express();
-
+var express = require("express");  
+var bodyParser = require("body-parser");
 
 /*******************************************************************************************
  * DEVICE AND RESOURCE
@@ -31,7 +34,7 @@ var deviceId = "0165b275783a0000000000010010008e"
 
 //电表
 var resourcePaths = ["/20002/3/31008", "/20003/4/26267", "/20003/4/26266", "/20003/4/26259", "/20003/4/26263", "/20003/4/26255", "/20003/4/26251", "/20003/4/26247", "/20003/4/26241", "/20003/4/30008", "/20003/4/30007", "/20003/4/30006", "/20003/4/30005", "/20003/4/30004", "/20003/4/30003"
-                ,"/20002/3/28004", "/20002/3/31002", "/20002/3/31003", "/20002/3/31004", "/20002/3/31005", "/20002/3/31006", "/20002/3/31007", "/20003/4/26241"];
+                ,"/20002/3/28004", "/20002/3/31002", "/20002/3/31003", "/20002/3/31004", "/20002/3/31005", "/20002/3/31006", "/20002/3/31007"];
 
 //控制断路器分合闸的DO模块
 // var resourcePaths2 = ["/20002/1/28004", "/20002/1/31002", "/20002/1/31003", "/20002/1/31004", "/20002/1/31005", "/20002/1/31006", "/20002/1/31007"];
@@ -186,7 +189,7 @@ function removeSubscribeRes(){
     .catch(error => {
         logger.info(error);
     });
-    console.log('Subscription Removed!');
+    logger.info('Subscription Removed!');
 }
         
 function recoverSubscribeRes(){
@@ -251,6 +254,7 @@ function startWatchDog(){
  * APP START
 ********************************************************************************************/
 function mainApp(){
+
     /*Just print out all connected devices, not really need */
     listDevices();
     /*Subscribe all resources need to monitor  */
@@ -266,11 +270,101 @@ function mainApp(){
 /* Webhook, run on AWS instance ARM-CHINT*/
 /** The url is the full url address of server */
 /** ARM-CHINT */
-var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:8080/check";
+var url = "http://ec2-52-83-186-68.cn-northwest-1.compute.amazonaws.com.cn:9000/check";
+// var url = "http://localhost:9000/check"
 //var port = 9000;
 
 // var url = "http://52.14.31.94:9000/check";
 var port = 9000;
+
+app.use(bodyParser.urlencoded({ extended: false }));
+
+app.get("/getD01", (req, res, next) => {
+    var resourceURI = req.query.resourceId;  
+    //get value
+    connect.getResourceValue(deviceId, resourceURI)
+    .then(data => {
+        logger.info("get resourceId value is " + data);
+        res.end(JSON.stringify(data)); 
+    })
+    .catch(error => {
+        res.end("-1"); 
+        logger.info(error);
+    });
+
+
+    res.on('error', function (error) {  
+        console.error('error--: ' + error); 
+        res.end("-1"); 
+    });  
+   
+    // res.sendStatus(200);
+});
+
+// app.get("/getD01", (req, res, next) => {
+//     logger.info('xxxxxxxxxxxxxxxxxxxdeeeee1');
+//     var resourceURI = req.query.resourceId;  
+
+//     //get value
+//     connect.getResourceValue(deviceId, resourceURI)
+//     .then(data => {
+//         logger.info('xxxxxxxxxxxxxxxxxxxdeeeee2');
+//         // logger.info("resourceId value is " + data);
+//         // logger.info("data == 1 ?" + (data == 1));
+//         // logger.info('xxxxxxxxxxxxxxxxxxxdeeeee3');
+//         res.end(333); 
+//     })
+//     .catch(error => {
+//         res.end("-1"); 
+//         logger.info(error);
+//     });
+
+//     res.on('error', function (error) {  
+//         logger.error('error--: ' + error); 
+//         res.end("-1"); 
+//     });  
+//     logger.info('xxxxxxxxxxxxxxxxxxxdeeeee2');
+//     res.sendStatus(200);
+// });
+
+app.get("/putD01", (req, res, next) => {
+    var resourceId = req.query.resourceId;  
+    var value = req.query.value;  
+    logger.info("resourceId = " + resourceId + ", value is " + value);  
+
+
+    var resourceURI = resourceId;
+    var payload = value;
+
+
+    //get value
+    connect.getResourceValue(deviceId, resourceURI)
+    .then(data => {
+        logger.info('data  value:' + data);
+    })
+    .catch(error => {
+        logger.info(error);
+    });
+
+    //set value    
+    connect.setResourceValue(deviceId, resourceURI, payload)
+    .then(response => {
+        // Utilize response here
+        logger.info(response);
+    })
+    .catch(error => {
+        logger.info(error);
+    });
+    res.sendStatus(200);
+    res.end("0"); 
+
+
+    res.on('error', function (error) {  
+        logger.error('error--: ' + error); 
+        res.end("1"); 
+    });  
+    
+});
 
 // Listen for PUTs at the root URL
 app.put("/check", (req, res, next) => {
@@ -326,22 +420,22 @@ http.createServer(app).listen(port, () => {
 
 
 process.on('uncaughtException', function (err) {
-    console.log('Caught exception: ' + err);
+    logger.info('Caught exception: ' + err);
     removeSubscribeRes();
     process.exit();
 });
 
 process.on('exit', function () {
     process.nextTick(function () {
-      console.log('This will not run');
+      logger.info('This will not run');
     });
-    console.log('About to exit.');
+    logger.info('About to exit.');
     removeSubscribeRes();
     process.exit();
 });
 
 process.on('SIGINT', function() {
-  console.log('SIGINT，Control-D');
+  logger.info('SIGINT，Control-D');
   //removeSubscribeRes();
   process.exit();
 });
@@ -357,7 +451,7 @@ connect.getWebhook()
             } else {
                 logger.info(`Webhook currently set to ${webhook.url}, changing to ${url}`);
             }
-            console.log('Always delete existing webhook first'); 
+            logger.info('Always delete existing webhook first'); 
             // connect.deleteWebhook();
         } else {
             logger.info(`No webhook currently registered, setting to ${url}`);

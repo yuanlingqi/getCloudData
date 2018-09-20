@@ -14,7 +14,6 @@ var logger = require('tracer').colorConsole({
       format: "{{timestamp}} <{{title}}> {{message}} (in {{file}}:{{line}})",
       dateformat: "HH:MM:ss.L"
     });
-    console.log('xxxxxxxxxxxxxxxxxx');
   }
 
   module.exports = logger;

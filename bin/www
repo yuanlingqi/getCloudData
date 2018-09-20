@@ -15,6 +15,23 @@ var http = require('http');
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
+
+
+app.get("/getD01", (req, res, next) => {
+    console.log('xxxxxxxxxxxxxxxxxxxdeeeee1');
+    var resourceURI = req.query.resourceId;  
+    console.log("resourceId value is " + resourceURI);
+    res.end(JSON.stringify(111)); 
+
+
+    res.on('error', function (error) {  
+        console.error('error--: ' + error); 
+        res.end("-1"); 
+    });  
+   
+    res.sendStatus(200);
+});
+
 /**
  * Create HTTP server.
  */
